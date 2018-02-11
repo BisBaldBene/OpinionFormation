@@ -1015,7 +1015,7 @@ void iter_neighbors(Graph * G, int_array * Checklist, int NIndex, int * consensu
 void export_data(Graph * G, int_array * Checklist, int iterations, char* fname, int_array * Influencer)
 {
     char str[25];
-    strcpy(str, "./data/");
+    strcpy(str, "C:\Miniconda\envs\opinion\OpinionFormationCode\data");
     strcat(str, fname);
     strcat(str, ".txt");
     printf("Data written to %s\n", str);
